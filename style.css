@@ -7,18 +7,17 @@ body h1{
     font-size: 60px;
 }
 section{
-    display: flex;
     height: 100vh;
-    
 }
-.banner-section{
-    margin-bottom: 70px;
+.flex-content{
+    display: flex;
+}
+.banner-section, .concert-place{
     background-image: linear-gradient(rgb(235, 191, 199), rgb(189, 154, 166));
 }
 .half-width{
     width: 50%;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 0 6%;
 }
 .half-width img{
     margin-top: 50px;
@@ -34,8 +33,12 @@ section{
     border-radius: 5%;
     font-weight: 700;
 }
+.banner-section .half-width a:hover{
+    color: rgb(233, 115, 137);
+}
 .bts-details h1{
     font-size: 40px;
+    margin-top: 90px;
 }
 .bts-details a{
     padding: 10px 40px;
@@ -48,4 +51,54 @@ section{
     background-color: rgba(0, 0, 0, 0.753);
     border: none;
     transition: 0.5s;
+}
+#box1{
+    height: 400px;
+    background-color: white;
+    background-image: url(images/pic-5.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+#box2{
+    height: 400px;
+    background-color: white;
+    background-image: url(images/pic-3-4.jpg);
+    background-size: contain;
+    border-radius: 5%;
+}
+.half-width h4{
+    color: white;
+    font-size: 25px;
+    line-height: 1.2px;
+    margin-top: 130px;
+}
+.half-width h5{
+    color: white;
+    font-size: 24px;
+    line-height: 0.5px;
+}
+.half-width h6{
+    color: white;
+    font-size: 16px;
+}
+.concert-place h1{
+    font-family: Arial;
+    text-align: center;
+    padding: 40px;
+}
+.concert-place .half-width{
+    text-align: center;
+}
+.concert-place .half-width a{
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid tomato;
+}
+footer{
+    align-items: center;
+}
+footer p{
+    color: rgb(77, 77, 77);
+    text-align: center;
 }
