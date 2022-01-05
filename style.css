@@ -1,0 +1,51 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+body h1{
+    font-family: 'Pushster', cursive;
+    font-size: 60px;
+}
+section{
+    display: flex;
+    height: 100vh;
+    
+}
+.banner-section{
+    margin-bottom: 70px;
+    background-image: linear-gradient(rgb(235, 191, 199), rgb(189, 154, 166));
+}
+.half-width{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.half-width img{
+    margin-top: 50px;
+}
+.half-width p{
+    margin-bottom: 40px;
+}
+.banner-section .half-width a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 5%;
+    font-weight: 700;
+}
+.bts-details h1{
+    font-size: 40px;
+}
+.bts-details a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+.bts-details a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.753);
+    border: none;
+    transition: 0.5s;
+}
